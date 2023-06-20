@@ -1,9 +1,15 @@
+import { BrowserRouter } from "react-router-dom";
+
 import Container from "./Container/Container";
+import NavBar from "./NavBar/NavBar";
+
 function App() {
   return (
-    <Container>
-      <h1>Hello</h1>
-    </Container>
+    <BrowserRouter>
+      <Container>
+        <NavBar />
+      </Container>
+    </BrowserRouter>
   );
 }
 
