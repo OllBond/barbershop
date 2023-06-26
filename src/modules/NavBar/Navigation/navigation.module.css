@@ -1,0 +1,20 @@
+.navigateWrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #303030;
+}
+
+.link:hover,
+.link:focus {
+  color: #ff6c00;
+}

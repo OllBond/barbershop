@@ -1,0 +1,30 @@
+.sectionMain {
+  padding: 200px 60px;
+  background-image: url("../../image/bgiMian-2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mainWrapper {
+  text-align: center;
+}
+.text {
+  margin-left: 500px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.text::before {
+  display: inline-block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: gray;
+}
+.title {
+  font-size: 75px;
+}
