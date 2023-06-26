@@ -1,5 +1,5 @@
 .sectionMain {
-  padding: 200px 60px;
+  padding: 200px 65px;
   background-image: url("../../image/bgiMian-2x.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -24,6 +24,10 @@
   height: 1px;
   margin-right: 20px;
   background-color: gray;
+}
+.textWrapper {
+  display: flex;
+  justify-content: flex-end;
 }
 .title {
   font-size: 75px;
