@@ -9,18 +9,17 @@ const Footer = () => {
   return (
     <footer>
       <section className={css.footer}>
-        {" "}
         <div className={css.footerWrapper}>
           <h3 className={css.titleFooter}>Ми в соціальних мережах</h3>
           <ul className={css.list}>
             <li>
               <NavLink to="#">
-                <BsInstagram color="var(--primary-text-color)" />
+                <BsInstagram className={css.iconsSocial} />
               </NavLink>
             </li>
             <li>
               <NavLink to="#">
-                <BsFacebook color="var(--primary-text-color)" />
+                <BsFacebook className={css.iconsSocial} />
               </NavLink>
             </li>
           </ul>

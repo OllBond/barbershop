@@ -1,5 +1,5 @@
 .footer {
-  padding: 44px 0;
+  padding: 20px;
 }
 .list {
   display: flex;
@@ -10,6 +10,8 @@
   color: var(--primary-text-color);
 }
 .footerWrapper {
+  display: flex;
+  justify-content: center;
   font-size: 23px;
   gap: 30px;
   color: var(--primary-text-color);
@@ -21,4 +23,12 @@
   text-align: center;
   align-items: center;
   gap: 2px;
+}
+.iconsSocial {
+  color: var(--primary-text-color);
+  font-size: 30px;
+}
+.iconsSocial:hover,
+.iconsSocial:focus {
+  color: var(--accent-color);
 }
