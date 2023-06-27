@@ -1,6 +1,6 @@
 .sectionMain {
   padding: 200px 65px;
-  background-image: url("../../image/bgiMian-2x.png");
+  background-image: url("../../image/bgi-2x.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,7 +12,7 @@
   margin-left: 500px;
   display: flex;
   align-items: center;
-  color: gray;
+  color: var(--hero-text-color);
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
@@ -23,12 +23,13 @@
   width: 60px;
   height: 1px;
   margin-right: 20px;
-  background-color: gray;
+  background-color: var(--hero-text-color);
 }
 .textWrapper {
   display: flex;
   justify-content: flex-end;
 }
 .title {
+  color: var(--white-color);
   font-size: 75px;
 }

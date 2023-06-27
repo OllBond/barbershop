@@ -1,9 +1,17 @@
+:root {
+  --primary-text-color: #555555;
+  --secondary-text-color: #303030;
+  --white-color: #fff;
+  --accent-color: #ff6c00;
+  --hero-text-color: gray;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  color: #fff;
+  --primary-text-color: #555555;
 }
 
 code {

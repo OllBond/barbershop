@@ -11,10 +11,10 @@
   line-height: 16px;
   letter-spacing: 0.1em;
   text-decoration: none;
-  color: #303030;
+  color: var(--primary-text-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #ff6c00;
+  color: var(--accent-color);
 }
