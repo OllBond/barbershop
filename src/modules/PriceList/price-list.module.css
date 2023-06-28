@@ -1,0 +1,51 @@
+.sectionPrice {
+  padding: 100px;
+  background-image: url("../../image/bgimgprice-2x.png");
+  background-color: var(--secondary-text-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  display: flex;
+  align-items: center;
+  color: var(--hero-text-color);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.text::before {
+  display: inline-block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: var(--hero-text-color);
+}
+.priceTitle {
+  display: flex;
+  justify-content: center;
+
+  color: var(--white-color);
+  font-size: 60px;
+}
+.listWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.priceList {
+  color: var(--text-color-list);
+  font-size: 24px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+/* .priceItem {
+  display: flex;
+  gap: 200px;
+} */
+/* .value {
+  order: 3;
+} */
