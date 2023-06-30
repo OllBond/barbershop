@@ -6,6 +6,7 @@
   --accent-color: #ff6c00;
   --hero-text-color: gray;
   --background-color: aliceblue;
+  --background-color-masters: rgba(157, 164, 190, 0.6);
 }
 
 body {

@@ -6,6 +6,10 @@
   background-size: cover;
   background-position: center;
 }
+.mastersWrapper {
+  display: flex;
+  justify-content: center;
+}
 .text {
   display: flex;
   align-items: center;
