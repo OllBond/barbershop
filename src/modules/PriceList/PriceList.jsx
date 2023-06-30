@@ -26,14 +26,15 @@ const PriceList = () => {
           </ul>
           <ul className={css.priceList}>
             <li className={css.priceItem}>
-              Стрижка у стажера<span className={css.value}> від 50 грн</span>
+              Стрижка у стажера
+              <span className={css.value}> від 100 грн</span>
             </li>
             <li className={css.priceItem}>
               Стрижка під насадку
               <span className={css.value}> від 200 грн</span>
             </li>
             <li className={css.priceItem}>
-              Дитяча стрижка(до 12 років)
+              Дитяча стрижка (до 12 років)
               <span className={css.value}> від 300 грн</span>
             </li>
             <li className={css.priceItem}>

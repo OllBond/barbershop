@@ -1,5 +1,5 @@
 .sectionPrice {
-  padding: 100px;
+  padding: 60px 43px;
   background-image: url("../../image/bgimgprice-2x.png");
   background-color: var(--secondary-text-color);
   background-repeat: no-repeat;
@@ -31,9 +31,7 @@
 }
 .listWrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 300px;
+  justify-content: space-around;
 }
 
 .priceList {
@@ -42,10 +40,13 @@
   line-height: 1.67;
   letter-spacing: 0.02em;
 }
-/* .priceItem {
+.priceItem {
   display: flex;
-  gap: 200px;
-} */
-/* .value {
-  order: 3;
-} */
+  align-items: center;
+  gap: 60px;
+}
+
+.value {
+  margin-left: auto;
+  text-align: center;
+}
