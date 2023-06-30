@@ -1,0 +1,23 @@
+.sectionContacts {
+  padding: 100px 43px;
+  background-image: url("../../image/bg-contacts-2x.png");
+  background-color: var(--secondary-text-color);
+}
+.title {
+  color: var(--white-color);
+  font-size: 60px;
+  text-align: center;
+}
+.contactList {
+  color: var(--white-color);
+  font-size: 24px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.contactItem {
+  font-size: 24px;
+  color: var(--text-color-list);
+}
+.contactsIcon {
+  margin-right: 15px;
+}
