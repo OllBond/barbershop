@@ -26,7 +26,7 @@ const ContactsList = () => {
           </li>
           <li className={css.contactItem}>
             <Link></Link> <TfiEmail className={css.contactsIcon} />
-            bershop@gmail.com
+            barbershop@gmail.com
           </li>
         </ul>
       </section>
