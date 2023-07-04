@@ -13,12 +13,12 @@ const Footer = () => {
           <h3 className={css.titleFooter}>Ми в соціальних мережах</h3>
           <ul className={css.list}>
             <li>
-              <NavLink to="#">
+              <NavLink to="https://www.instagram.com/frisorworkshop/">
                 <BsInstagram className={css.iconsSocial} />
               </NavLink>
             </li>
             <li>
-              <NavLink to="#">
+              <NavLink to="https://www.facebook.com/FrisorBarbershop/">
                 <BsFacebook className={css.iconsSocial} />
               </NavLink>
             </li>

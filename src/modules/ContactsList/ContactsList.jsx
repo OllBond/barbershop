@@ -17,12 +17,9 @@ const ContactsList = () => {
             Васильківська 7а, Київ, 08132
           </li>
           <li className={css.contactItem}>
-            <Link></Link> <BsTelephone className={css.contactsIcon} />
-            +38(050)52-54-994 <br />
+            <Link></Link>
             <BsTelephone className={css.contactsIcon} />
-            +38(063)77-43-536 <br />
-            <BsTelephone className={css.contactsIcon} />
-            +38(097)45-36-888
+            +38(050)52-64-993
           </li>
           <li className={css.contactItem}>
             <Link></Link> <TfiEmail className={css.contactsIcon} />

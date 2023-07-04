@@ -1,0 +1,12 @@
+.titleForm {
+  text-align: center;
+}
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.input {
+  font-size: 30px;
+  border-radius: 5px;
+}
