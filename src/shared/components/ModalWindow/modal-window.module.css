@@ -9,7 +9,7 @@
 }
 
 .modal {
-  padding: 20px;
+  padding: 30px;
   border-radius: 20px;
   background-color: #fff;
   min-height: 500px;
@@ -29,4 +29,8 @@
   top: 20px;
   right: 20px;
   cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: var(--accent-color);
 }
