@@ -1,19 +1,72 @@
-.navigateWrapper {
-  display: flex;
-  gap: 40px;
+@media (max-width: 767px) {
+  .navigateWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    position: fixed;
+    left: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: var(--white-color);
+    text-align: center;
+    transition: left 1s;
+    letter-spacing: 0.03em;
+  }
+  .active {
+    left: 0;
+  }
 }
-
+@media (min-width: 768px) {
+  .navigateWrapper {
+    display: flex;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .link {
+    font-size: 35px;
+    letter-spacing: 0.03em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .link {
+    font-size: 25px;
+    letter-spacing: 0.1em;
+  }
+}
 .link {
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+
   line-height: 16px;
-  letter-spacing: 0.1em;
+
   text-decoration: none;
   color: var(--primary-text-color);
 }
 
 .link:hover,
 .link:focus {
+  color: var(--accent-color);
+}
+.mobileBtn {
+  display: none;
+}
+@media (max-width: 767px) {
+  .mobileBtn {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+.mobileBtn:hover,
+.mobileBtn:focus {
   color: var(--accent-color);
 }

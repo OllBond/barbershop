@@ -12,9 +12,10 @@ const ContactsList = () => {
         <h2 className={css.title}>Контакти</h2>
         <ul className={css.contactList}>
           <li className={css.contactItem}>
-            <Link></Link>
-            <HiOutlineLocationMarker className={css.contactsIcon} /> вул.
-            Васильківська 7а, Київ, 08132
+            <Link to="https://goo.gl/maps/gE9yczNd53fkCgTv8">
+              <HiOutlineLocationMarker className={css.contactsIcon} />
+            </Link>
+            вул. Антоновича, 50, Київ, 02000
           </li>
           <li className={css.contactItem}>
             <Link></Link>

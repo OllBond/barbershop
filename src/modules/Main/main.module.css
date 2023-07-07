@@ -1,28 +1,63 @@
 .sectionMain {
-  padding: 200px 65px;
   background-image: url("../../image/bgi-2x.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 100vh;
 }
-.mainWrapper {
-  text-align: center;
+
+@media screen and (max-width: 767px) {
+  .sectionMain {
+    padding: 60px 35px;
+  }
+  .title {
+    font-size: 40px;
+    letter-spacing: 0.05em;
+  }
+  .text {
+    font-size: 19px;
+  }
+  .text::before {
+    display: inline-block;
+    content: "";
+    width: 70px;
+    height: 1px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sectionMain {
+    padding: 200px 65px;
+  }
+  .title {
+    font-size: 70px;
+  }
+  .text {
+    margin-left: 218px;
+    display: flex;
+    align-items: center;
+    color: var(--hero-text-color);
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+  }
+  .text::before {
+    display: inline-block;
+    content: "";
+    width: 100px;
+    height: 1px;
+    margin-right: 20px;
+  }
+  .mainWrapper {
+    text-align: center;
+  }
 }
 .text {
-  margin-left: 218px;
-  display: flex;
-  align-items: center;
   color: var(--hero-text-color);
-  font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
 }
 .text::before {
-  display: inline-block;
-  content: "";
-  width: 100px;
-  height: 1px;
-  margin-right: 20px;
   background-color: var(--hero-text-color);
 }
 .textWrapper {
@@ -31,5 +66,4 @@
 }
 .title {
   color: var(--white-color);
-  font-size: 70px;
 }
