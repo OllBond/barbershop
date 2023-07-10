@@ -1,6 +1,6 @@
 import { useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
-
+import { AiOutlineClose } from "react-icons/ai";
 import css from "./modal-window.module.css";
 
 const modalRoot = document.querySelector("#modal-root");
@@ -25,7 +25,7 @@ const Modal = ({ close, children }) => {
     <div className={css.overlay} onClick={closeModal}>
       <div className={css.modal}>
         <span className={css.close} onClick={close}>
-          X
+          <AiOutlineClose />
         </span>
         {children}
       </div>

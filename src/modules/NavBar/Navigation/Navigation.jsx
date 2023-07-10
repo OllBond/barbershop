@@ -15,7 +15,6 @@ const Navigation = () => {
     setNav(!nav);
   };
   const [showModal, setShowModal] = useState(false);
-  // const [nav, setNav] = useState(false);
 
   const openModal = useCallback(() => {
     setShowModal(true);
@@ -40,8 +39,9 @@ const Navigation = () => {
         <NavLink to="/contacts" className={css.link}>
           Контакти
         </NavLink>
+        <Button text="ОНЛАЙН-ЗАПИС" openModal={openModal} />
       </div>
-      <Button text="ОНЛАЙН-ЗАПИС" openModal={openModal} />
+
       {showModal && (
         <Modal close={closeModal}>
           <OnlineRegisterForm />
