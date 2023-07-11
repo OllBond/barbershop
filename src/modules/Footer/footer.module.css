@@ -4,7 +4,7 @@
 .list {
   display: flex;
   align-items: center;
-  gap: 29px;
+  gap: 24px;
 }
 .titleFooter {
   color: var(--primary-text-color);

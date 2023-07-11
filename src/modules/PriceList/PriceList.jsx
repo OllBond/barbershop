@@ -1,8 +1,21 @@
+import { useState, useCallback } from "react";
+
 import Button from "../../shared/components/Button/Button";
+import Modal from "../../shared/components/ModalWindow/ModalWindow";
+import OnlineRegisterForm from "../OnlineRegisterForm/OnlineRegisterForm";
 
 import css from "./price-list.module.css";
 
 const PriceList = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = useCallback(() => {
+    setShowModal(true);
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setShowModal(false);
+  }, []);
   return (
     <main>
       <section className={css.sectionPrice}>
@@ -43,7 +56,12 @@ const PriceList = () => {
             </li>
           </ul>
         </div>
-        <Button text="ОНЛАЙН-ЗАПИС" />
+        <Button text="ОНЛАЙН-ЗАПИС" openModal={openModal} />
+        {showModal && (
+          <Modal close={closeModal}>
+            <OnlineRegisterForm />
+          </Modal>
+        )}
       </section>
     </main>
   );
