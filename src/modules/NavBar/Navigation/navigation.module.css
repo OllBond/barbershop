@@ -42,6 +42,9 @@
     font-size: 35px;
     letter-spacing: 0.03em;
   }
+  .activeLink {
+    color: black;
+  }
 }
 .link {
   font-style: normal;

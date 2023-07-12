@@ -11,8 +11,11 @@ import css from "./navigation.module.css";
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
-  const mobileNav = () => {
+  const [currentPage, setCurrentPage] = useState("");
+
+  const mobileNav = (page) => {
     setNav(!nav);
+    setCurrentPage(page);
   };
   const [showModal, setShowModal] = useState(false);
 
@@ -30,13 +33,27 @@ const Navigation = () => {
           nav ? `${css.navigateWrapper} ${css.active}` : css.navigateWrapper
         }
       >
-        <NavLink to="/price" className={css.link}>
+        <NavLink
+          to="/price"
+          className={
+            currentPage === "price" ? `${css.link} ${css.activeLink}` : css.link
+          }
+          onClick={() => mobileNav("price")}
+        >
           Послуги та ціни
         </NavLink>
-        <NavLink to="/masters" className={css.link}>
+        <NavLink
+          to="/masters"
+          className={css.link}
+          onClick={() => mobileNav("masters")}
+        >
           Майстри
         </NavLink>
-        <NavLink to="/contacts" className={css.link}>
+        <NavLink
+          to="/contacts"
+          className={css.link}
+          onClick={() => mobileNav("contacts")}
+        >
           Контакти
         </NavLink>
         <Button text="ОНЛАЙН-ЗАПИС" openModal={openModal} />
