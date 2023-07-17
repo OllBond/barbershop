@@ -14,6 +14,7 @@ const MastersList = () => {
                 src="https://media.istockphoto.com/id/509661306/photo/stylish-retro-bearded-barber-with-a-bald-male-client.jpg?s=612x612&w=0&k=20&c=936nt2MoTJn1AIxdvScMcE_wPVHNCnO544OQ-6zN9Lc="
                 alt="Oles Kozackiy"
                 width="255"
+                load="lazy"
               />
               <div className={css.descriptionWrap}>
                 <h3>Олесь Козацький</h3>
