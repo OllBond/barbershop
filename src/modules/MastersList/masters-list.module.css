@@ -62,11 +62,3 @@
 .listMasters {
   color: var(--text-color-list);
 }
-@media screen and (max-width: 1199px) {
-  .descriptionWrap {
-    margin-bottom: 40px;
-  }
-}
-.descriptionWrap {
-  text-align: center;
-}
