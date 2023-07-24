@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-// import { useState, useCallback } from "react";
 
 import LogoIcon from "../../icons/LogoIcon";
 import Navigation from "./Navigation/Navigation";
