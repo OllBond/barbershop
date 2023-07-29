@@ -7,7 +7,7 @@ const initialState = {
   error: null,
 };
 
-const contactsSlice = createSlice({
+const mastersSlice = createSlice({
   name: "masters",
   initialState,
   extraReducers: (builder) => {
@@ -26,4 +26,4 @@ const contactsSlice = createSlice({
   },
 });
 
-export default contactsSlice.reducer;
+export default mastersSlice.reducer;
